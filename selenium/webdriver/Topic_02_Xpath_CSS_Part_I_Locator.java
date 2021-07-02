@@ -19,6 +19,7 @@ public class Topic_02_Xpath_CSS_Part_I_Locator {
 	public void beforeClass() {
 		//System.setProperty("webdriver.gecko.driver", ".\\browserDrivers\\geckodriver.exe");
 		//System.setProperty("webdriver.chrome.driver", ".\\browserDrivers\\chromedriver.exe");
+		
 		//driver = new ChromeDriver();
 		driver = new FirefoxDriver();
 		
