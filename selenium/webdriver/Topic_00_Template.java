@@ -20,7 +20,7 @@ public class Topic_00_Template {
 	
 	@BeforeClass
 	public void beforeClass() {
-		//System.setProperty("webdriver.gecko.driver", ".\\browserDrivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", ".\\browserDrivers\\geckodriver.exe");
 		//System.setProperty("webdriver.chrome.driver", ".\\browserDrivers\\chromedriver.exe");
 		//driver = new ChromeDriver();
 		driver = new FirefoxDriver();
