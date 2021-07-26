@@ -189,7 +189,6 @@ public class Topic_07_Default_Dropdown_Excercise {
 		try {
 			Thread.sleep(timeoutSecond * 1000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Wep App" >
+
+<!--   //<parameter  name="url" value="http://live.demoguru99.com/index.php/customer/account/login/" /> -->
+ 
+ <listeners>
+ 	<listener class-name="testNG.ReportListener" />
+ </listeners>
+ 
+  <test name="Run on Chrome">
+  	<parameter  name="browser" value="chrome" />
+  	<classes>
+  		<class name="testNG.Topic_05_Paramaters" />
+  	</classes>
+  </test>
+  
+</suite> <!-- Suite -->
+
+<!--   <groups> -->
+<!--   	<run> -->
+<!--   		<include name="api" /> -->
+<!--   	</run> -->
+<!--   </groups> -->
+<!--   	<packages> -->
+<!--   		<package name="testNG" /> -->
+<!--   		<package name="api.application" /> -->
+<!--   		<package name="mobile.application" /> -->
+<!--   	</packages> -->
+
+<!--   </test> Test -->
+
